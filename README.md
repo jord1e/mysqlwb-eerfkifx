@@ -12,7 +12,7 @@ Downloads are available on the ![releases](https://github.com/jordieh/mysqlwb-ee
 Run the executable. Admin rights are required because MySQL Workbench is installed in `C:\Program Files\MySQL\MySQL Workbench 8.0 CE` by default.
 ### DIY
 1. Clone the repository into a seperate directory.
-2. Run `fix-mysql-erd-fk.bat` with administrator rights
+2. Run `fix-mysql-erd-fk.bat` with admin rights.
 
 ## Result
 ![result showing icons for FK relationships](.github/demo.png)
