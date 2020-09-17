@@ -1,13 +1,14 @@
-:: Based on https://github.com/horeca2/MySQL-Workbench-Bug-92141-patch
 @echo off
-TITLE MySQL Workbench EER FK ^.ico Fix
+TITLE MySQL Workbench EERFKIFx
 SET wb_base=C:\Program Files\MySQL\MySQL Workbench 8.0 CE\
 SET wb_path="%wb_base%images"
 CLS
 ECHO:
-ECHO    .-------------------------------------.
-ECHO    ^| MySQL Workbench EER Foreign Key fix ^|
-ECHO    '-------------------------------------'
+ECHO    .------------------------------------------.
+ECHO    ^| MySQL Workbench EER Foreign Key Icon Fix ^|
+ECHO    ^| Fix for MySQL Workbench bug #92141       ^|
+ECHO    ^| github.com/jord1e/mysqlwb-eerfkifx       ^|
+ECHO    '------------------------------------------'
 ECHO:
 NET SESSION >nul 2>&1
 IF %ERRORLEVEL% NEQ 0 (
@@ -26,7 +27,7 @@ IF %ERRORLEVEL% EQU 0 (
     PAUSE
     ECHO Attempting to kill
     TASKKILL /IM MySQLWorkbench.exe /F
-    ECHO Waiting for 5 seconds
+    ECHO Waiting for 5 seconds (full shutdown)
     PING -n 6 127.0.0.1>nul
 ) ELSE (
     ECHO MySQL Workbench is not running
