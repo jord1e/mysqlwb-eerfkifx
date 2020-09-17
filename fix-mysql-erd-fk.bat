@@ -27,7 +27,7 @@ IF %ERRORLEVEL% EQU 0 (
     PAUSE
     ECHO Attempting to kill
     TASKKILL /IM MySQLWorkbench.exe /F
-    ECHO Waiting for 5 seconds (full shutdown)
+    ECHO Waiting for 5 seconds ^(full shutdown^)
     PING -n 6 127.0.0.1>nul
 ) ELSE (
     ECHO MySQL Workbench is not running
