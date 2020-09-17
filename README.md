@@ -1,5 +1,5 @@
 # MySQL Workbench EER Foreign Key Icon Fix
-Fix for ![MySQL Workbench bug #92141](https://bugs.mysql.com/bug.php?id=92141) in the form of a `.exe` file.
+Fix for [MySQL Workbench bug #92141](https://bugs.mysql.com/bug.php?id=92141) in the form of a `.exe` file.
 
 ## Credits
 Based on https://github.com/horeca2/MySQL-Workbench-Bug-92141-patch (also contains details for macOS users).
