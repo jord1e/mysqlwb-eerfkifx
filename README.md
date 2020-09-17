@@ -1,4 +1,4 @@
-# mysqlwb-eer-fkicon-fix
+# MySQL Workbench EER FK ^.ico Fix
 Fix for MySQL Workbench Bug #92141
 
 ## Credits
