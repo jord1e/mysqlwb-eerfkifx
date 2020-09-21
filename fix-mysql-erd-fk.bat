@@ -56,7 +56,7 @@ IF %ERRORLEVEL% EQU 1 (
     ECHO Removing local images folder
     RMDIR /S /Q images
     IF %ERRORLEVEL% EQU 1 (
-        ECHO Error whilt deleting local images folder
+        ECHO Error whilst deleting local images folder
     ) ELSE (
         ECHO Done.
     )
